@@ -1,13 +1,12 @@
-import { Button } from 'antd-mobile'
-import Hello from '@/component/Hello';
+import { BrowserRouter } from "react-router-dom";
+import Router from "@/config/router"
+import TabBar from "@/component/TabBar";
 function App() {
   return (
-    <div className="App">
-      hello react
-      <Button>hi</Button>
-      <Hello />
-    </div>
+      <BrowserRouter>
+        <TabBar/>
+        <Router/>
+      </BrowserRouter>
   );
 }
-
-export default App;
+export default App
