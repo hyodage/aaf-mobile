@@ -1,7 +1,6 @@
+import "./assets/me.css"
 export default function Me() {
     return (
-        <div>
-            me
-        </div>
+        <div className="box">me</div>
     )
 }
